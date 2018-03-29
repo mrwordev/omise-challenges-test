@@ -6,8 +6,8 @@ inside and the donor name printed on the front. The idea is that your donation a
 should be kept secret les the activity becomes an act of flaunting your wealth.
 
 But we're a payment gateway, we can do better than that. The envelope will contain,
-intead, a valid CC and a small piece of paper with the desired donation amount. The entire
-list is also encrypted using NSA-proof variant of the [Caesar Cipher][1].
+instead, a valid CC and a small piece of paper with the desired donation amount. The
+entire list is also encrypted using NSA-proof variant of the [Caesar Cipher][1].
 
 ### CONTENTS
 
@@ -35,12 +35,12 @@ done.
        faulty donation: THB   10,000.00
 
     average per person: THB      534.23
-             top donor: Obi-wan Kenobi
+            top donors: Obi-wan Kenobi
                         Luke Skywalker
                         Kylo Ren
 ```
 
-**Requirements:***
+**Requirements:**
 
 * Decrypt the file using a simple [ROT-255][2] algorithm.
 * Make donations for each row in the decrypted CSV.
@@ -53,7 +53,7 @@ done.
 * Run as fast as possible on a multi-core CPU.
 * Allocate as little memory as possible.
 * Complete the entire process without leaving large trace of Credit Card numbers
-  in memory.
+  in memory, or on disk.
 
  [0]: https://www.omise.co/charges-api
  [1]: https://en.wikipedia.org/wiki/Caesar_cipher
