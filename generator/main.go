@@ -14,7 +14,7 @@ func main() {
 
 	var (
 		fngName = os.Args[1]
-		outName = fngName + ".rot255"
+		outName = fngName + ".rot128"
 	)
 
 	fngFile, err := os.Open(fngName)
@@ -31,7 +31,7 @@ func main() {
 
 	defer outFile.Close()
 
-	encOut, err := cipher.NewRot255Writer(outFile)
+	encOut, err := cipher.NewRot128Writer(outFile)
 	if err != nil {
 		log.Fatalln(err)
 	}

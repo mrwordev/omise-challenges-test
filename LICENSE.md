@@ -1,5 +1,5 @@
-The Rot255 version of the name and CC data list are generated from a CSV downloaded from
-https://fakenamegenerator.com and we choose the GPLv3 license. Therefore the Rot255
+The Rot128 version of the name and CC data list are generated from a CSV downloaded from
+https://fakenamegenerator.com and we choose the GPLv3 license. Therefore the Rot128
 version is licensed under GPLv3 as well.
 
 # Fake Name Generator

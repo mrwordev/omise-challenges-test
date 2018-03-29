@@ -11,8 +11,8 @@ entire list is also encrypted using NSA-proof variant of the [Caesar Cipher][1].
 
 ### CONTENTS
 
-* `data/fng.csv.rot255` - A ROT-255 encrypted CSV file.
-* `cipher/rot255.go` - Sample ROT-255 encrypt-/decrypter.
+* `data/fng.csv.rot128` - A ROT-128 encrypted CSV file.
+* `cipher/rot128.go` - Sample ROT-128 encrypt-/decrypter.
 
 ### EXERCISE
 
@@ -42,7 +42,7 @@ done.
 
 **Requirements:**
 
-* Decrypt the file using a simple [ROT-255][2] algorithm.
+* Decrypt the file using a simple [ROT-128][2] algorithm.
 * Make donations for each row in the decrypted CSV.
 * Produce a summary at the end.
 * Handle errors gracefully, without stopping the entire process.
@@ -57,4 +57,4 @@ done.
 
  [0]: https://www.omise.co/charges-api
  [1]: https://en.wikipedia.org/wiki/Caesar_cipher
- [2]: https://play.golang.org/p/7YMTYOkUmaE
+ [2]: https://play.golang.org/p/dCWYyWPHwj4
