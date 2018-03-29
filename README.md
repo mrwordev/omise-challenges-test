@@ -9,6 +9,11 @@ But we're a payment gateway, we can do better than that. The envelope will conta
 intead, a valid CC and a small piece of paper with the desired donation amount. The entire
 list is also encrypted using NSA-proof variant of the [Caesar Cipher][1].
 
+### CONTENTS
+
+* `data/fng.csv.rot255` - A ROT-255 encrypted CSV file.
+* `cipher/rot255.go` - Sample ROT-255 encrypt-/decrypter.
+
 ### EXERCISE
 
 Write a GO command-line module that, when given the CSV list, calls the [Omise API][0] to
