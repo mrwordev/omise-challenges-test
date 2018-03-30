@@ -9,8 +9,9 @@ The idea is that your donation amount should be kept secret les the activity bec
 act of flaunting your wealth.
 
 But we're a payment gateway, we can do better than that. The envelope will contain,
-instead, a valid CC and the desired donation amount. The entire list is also encrypted
-using NSA-proof variant of the [Caesar Cipher][1] :troll:
+instead, a valid CC number (fake ones, not a real working card) and the desired donation
+amount. The entire list is also encrypted using NSA-proof variant of the
+[Caesar Cipher][1] :troll:
 
 ### CONTENTS
 
