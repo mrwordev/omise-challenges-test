@@ -4,7 +4,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/omise/go-tamboon/cipher"
+	"../cipher"
 )
 
 func main() {
